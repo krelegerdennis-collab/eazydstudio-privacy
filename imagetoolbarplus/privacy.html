@@ -1,0 +1,64 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Image Toolbar Plus – Privacy Policy</title><style>body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}a{color:#0b57d0}</style></head><body><h1>Privacy Policy — Image Toolbar Plus</h1>
+<p><strong>Last updated:</strong> October 24, 2026<br />
+<strong>Publisher:</strong> EazyD Studio<br />
+<strong>Extension:</strong> Image Toolbar Plus</p>
+<h2>Summary</h2>
+<p>Image Toolbar Plus does <strong>not</strong> collect, store, or transmit personal data to EazyD Studio or any third-party analytics service.</p>
+<h2>Data handling</h2>
+<h3>What we do not do</h3>
+<ul>
+<li>No account registration or login</li>
+<li>No analytics, advertising, or tracking pixels</li>
+<li>No sale or sharing of user data</li>
+<li>No remote code execution — all features run from the packaged extension files</li>
+</ul>
+<h3>What stays on your device</h3>
+<p>Your preferences (button toggles, toolbar position, minimum image size, site blacklist, save folder pattern, default search engine) are stored with the Chrome <strong><code>storage</code></strong> API (<code>chrome.storage.sync</code> when sync is enabled, otherwise local).</p>
+<p>When you use <strong>Save</strong>, Chrome’s <strong>downloads</strong> API saves files to your computer using URLs you choose. We do not receive those files or URLs.</p>
+<p>When you use <strong>Reverse image search</strong>, your browser opens Google Lens, Bing, or TinEye with the image URL you selected. Those sites have their own privacy policies.</p>
+<h3>Permissions</h3>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Why it is needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>storage</code></td>
+<td>Remember your settings</td>
+</tr>
+<tr>
+<td><code>downloads</code></td>
+<td>Save images you request</td>
+</tr>
+<tr>
+<td><code>contextMenus</code></td>
+<td>Add image actions to the right-click menu</td>
+</tr>
+<tr>
+<td><code>activeTab</code></td>
+<td>Support keyboard shortcuts in the active tab</td>
+</tr>
+<tr>
+<td><code>tabs</code></td>
+<td>Deliver save/copy commands to the correct tab</td>
+</tr>
+<tr>
+<td><code>offscreen</code></td>
+<td>Write copied image bytes to the clipboard</td>
+</tr>
+<tr>
+<td>Host access (<code>&lt;all_urls&gt;</code>)</td>
+<td>Fetch image data for save/copy and show the toolbar on pages you visit</td>
+</tr>
+</tbody>
+</table>
+<p>The extension injects a content script on <strong>http</strong> and <strong>https</strong> pages so it can show the toolbar on images you view. It does not run on pages you have blacklisted in options. Copied images are processed locally; image bytes are not sent to EazyD Studio.</p>
+<h2>Children</h2>
+<p>The extension is not directed at children under 13 and does not knowingly collect information from them.</p>
+<h2>Changes</h2>
+<p>We may update this policy for clarity or legal compliance. The “Last updated” date will change when we do.</p>
+<h2>Contact</h2>
+<p>Questions about privacy: eazydstudio@mail.grokbot.com</p><hr><p>Publisher: EazyD Studio · Contact: <a href="mailto:eazydstudio@mail.grokbot.com">eazydstudio@mail.grokbot.com</a></p></body></html>
